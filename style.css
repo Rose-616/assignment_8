@@ -1,0 +1,56 @@
+h3{
+    color: black;
+    font-size: 60px;
+    font-weight: bolder;
+}
+h1{
+    display: inline-block;
+    width: 150px;
+    background-color: white;
+    color: black;
+    height: 180px;
+    font-size: 110px;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-left: 5px;
+}
+body{
+    text-align: center;
+    background-color: #6289b5;
+}
+#myBtn,#mybtn1,#mybtn2{
+    border-radius: 5px;
+    padding: 7px;
+    box-shadow: 2px 5px silver;
+    width: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+#myBtn{
+    background-color: yellowgreen;
+}
+#mybtn1{
+    background-color: red;
+}
+#mybtn2{
+    background-color: Teal;
+}
+@media only screen and (max-width: 600px) {
+    h1{
+        height: 100px;
+        width: 80px;
+        font-size: 50px;
+        padding-top: 25px;
+    }
+    h3{
+        font-size: 30px;
+    }
+    #myBtn,#mybtn1,#mybtn2{
+      width: 60px;
+      font-size: 15px;
+      font-weight: normal;
+    
+        
+    }
+  }
